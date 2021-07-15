@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JsfEvent:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JsfEvent</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="JsfEvent-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="JsfEvent:war exploded" />
+    </root>
+  </artifact>
+</component>
