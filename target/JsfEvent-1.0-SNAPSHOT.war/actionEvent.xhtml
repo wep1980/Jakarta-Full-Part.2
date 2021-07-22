@@ -20,6 +20,7 @@
             <f:selectItems value="#{formActionEvent.regioes}" var="r" itemValue="#{r.sigla}" itemLabel="#{r.nome}"  />
         </h:selectOneMenu>
         <h:commandButton value="Carregar Estados" actionListener="#{formActionEvent.carregarEstados}" />
+        <!-- O carregamentos dos estados ocorre assim que uma regiao Ã© escolhida e o botao de carregar estados e acionado, atraves do actionListener=""-->
 
         Estado:
         <h:selectOneMenu value="#{formActionEvent.siglaEstado}">
